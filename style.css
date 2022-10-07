@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(63, 62, 62);
+}
+
+h2, p{
+    color: white;
+    font-weight: inherit;
+    padding: 0px 15px;
+}
+
+.profile img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.main{
+    height: 800px;
+    width: 450px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 120px 120px 120px;
+    border: 5px solid gray;
+    column-gap: 10px;
+    position: relative;
+}
+
+.details{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+
+.profile img{
+    margin: 20px;
+}
+
+h3{
+    color: white;
+    font-weight: inherit;
+}
+
+.info{
+    margin-left: 25px;
+    width: 400px;
+}
+
+.edit button{
+    width: 400px;
+    margin: 0px auto;
+    height: 30px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-weight: inherit;
+    margin-top: 20px;
+}
+
+.links button:hover,.edit button:hover{
+    background-color: rgb(71, 69, 69);
+}
+
+.button button{
+    border: 2px solid rgb(104, 101, 101);
+    border-radius: 3px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    margin: 10px auto;
+}
+
+.sorotan img{
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    margin-top: 30px;
+}
+
+.kawan img{
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    bottom: 80px;
+    left: 80px;
+    position: relative;
+   
+}
+
+._ab6- {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 2px;
+}
+._ab7- {
+    display: block;
+    position: relative;
+    float: left;
+}
+._ab8- {
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+
+._ab9- {
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+
+._ab10- {
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+
+._ab11- {
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+
+
+.logo1 {
+    position: relative;
+    right: 70px;
+}
+.logo2 {
+    position: relative;
+    left: 70px;
+}
+
+.fotokuh img{
+    border-radius: 3%;
+}
+
+.logo3 {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.logo4 {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 580px;
+    color: black;
+    right: 23px;
+}
+
+
+.logo5 {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 580px;
+    color: black;
+    right: 55px;
+}
+
+.logo6 {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 580px;
+    color: white;
+    left: 300px;
+    bottom: 650px;
+}
+
+.foto img{
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 625px;
+    color: white;
+    left: 160px;
+    bottom: 650px;
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+    margin-left: 260px;
+    border-top: 30px;
+}
